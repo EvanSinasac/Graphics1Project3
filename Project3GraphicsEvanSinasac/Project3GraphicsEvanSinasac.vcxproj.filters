@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{58313baf-3dff-4a4d-97ec-1e7c19c182f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{168d6948-3c9e-4766-91cc-f061190fedb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{9c82b963-87e0-4014-bce6-4d75d9b9a580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{11d2a922-ac8a-4d25-809b-dd6d2b9929ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{c7c6deeb-825c-4a11-8401-f2bd86bf9180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{2b5bfa32-4f66-4f83-a908-67d17385a73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{cddd405a-14d0-44c8-ba44-ccdf7caa9f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{58481c22-e318-4210-9cf8-34629932ea94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{8f1a5eae-6704-4927-9a6b-cd46cab0f959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator_Imp.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iMessage.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator_Imp.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\geomShader.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
